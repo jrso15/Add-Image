@@ -13,11 +13,10 @@ To run the project on your localhost:
   3. Confirm everything is set up properly by opening [http://localhost:3000](http://localhost:3000) in your browser.
 
 ### Via Docker ###
-To run the docker container in your terminal:
 
-`docker run --name exam -d -p 3000:3000 emapta-exam:latest`
-
-to confirm it's working open up `localhost:3000` again without running npm start.
+  1. Build our image using this command: `docker build -t emapta-exam:latest`
+  2. To run the docker container in your terminal: `docker run --name exam -d -p 3000:3000 emapta-exam:latest`
+  3. To confirm it's working open up `localhost:3000` again without running npm start.
 
 ### npm run build ###
 
