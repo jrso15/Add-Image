@@ -27,7 +27,7 @@ const App = () => {
     mobileFirst: true,
     responsive: [
       {
-        breakpoint: 1900,
+        breakpoint: 2000,
         settings: {
           slidesToShow: 4,
           slidesToScroll: 4,
