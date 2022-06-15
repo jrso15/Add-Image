@@ -1,0 +1,68 @@
+
+.App {
+  text-align: center;
+}
+.title {
+  margin: 50px auto;
+}
+.btn-wrapper {
+  margin: 0 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 180px;
+  height: 50px;
+  border: 0;
+  color: #fff;
+  font-weight: bold;
+  background-color: #8c8c8c;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color:  #333333;
+}
+
+section {
+  margin: 50px auto;
+}
+
+section h2 {
+  font-size: 3em;
+}
+
+.image-container {
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-wrapper {
+  width: 95%;
+  flex:0 0 44.5%;
+  margin: 10px;
+}
+
+.image-wrapper img {
+ width: 95%;
+}
+
+@media only screen and (min-width: 768px) {
+  .btn-wrapper {
+    justify-content: center;
+  }
+  .btn {
+    width: 300px;
+    font-size: 16px;
+    margin: 0 10px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .image-wrapper {
+    flex: 0 0 23.3%;
+  }
+}
