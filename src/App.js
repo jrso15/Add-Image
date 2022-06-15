@@ -11,10 +11,10 @@ const App = () => {
   };
 
   const handleRemoveImage = () => {
-    const items = imageList;
-    if (items.length > 0) {
+    const imageItems = imageList;
+    if (imageItems.length > 0) {
       const randomImage = Math.floor(Math.random() * imageList.length);
-      setImageList(items.filter((i) => i !== randomImage));
+      setImageList(imageItems.filter((i) => i !== randomImage));
     }
   };
 
@@ -22,15 +22,14 @@ const App = () => {
     dots: true,
     infinite: imageList.length > 3,
     speed: 500,
-    slidesToShow: 2,
-    slidesToScroll: 2,
-    mobileFirst: true,
+    slidesToShow: 4,
+    slidesToScroll: 4,
     responsive: [
       {
-        breakpoint: 2000,
+        breakpoint: 768,
         settings: {
-          slidesToShow: 4,
-          slidesToScroll: 4,
+          slidesToShow: 2,
+          slidesToScroll: 2,
         },
       },
     ],
