@@ -8,9 +8,11 @@ It has two section when displaying the images: `Carousel` and `Simple listing`.
 There are two ways of running the local environment: natively via Local or via Docker
 
 To run the project on your localhost:
-  1. Get the required node modules by installing `npm i` or `npm install`
-  2. Run `npm start` to run the project.
-  3. Confirm everything is set up properly by opening [http://localhost:3000](http://localhost:3000) in your browser.
+  1. Clone the repository and run `git clone https://github.com/jrso15/Add-Image.git`
+  2. Go to the project `cd Add-Image`
+  3. Get the required node modules by installing `npm i` or `npm install`
+  4. Run `npm start` to run the project.
+  5. Confirm everything is set up properly by opening [http://localhost:3000](http://localhost:3000) in your browser.
 
 ### Via Docker ###
 
