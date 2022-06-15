@@ -27,4 +27,4 @@ Builds the app for production to the `build` folder.
 ## Deployed via Netlify
 
 To access the link: 
-`https://janille-olegario-add-image.netlify.app/`
+[https://janille-olegario-add-image.netlify.app/](https://janille-olegario-add-image.netlify.app/)
