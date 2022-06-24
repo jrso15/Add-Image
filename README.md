@@ -16,8 +16,8 @@ To run the project on your localhost:
 
 ### Via Docker ###
 
-  1. Build our image using this command: `docker build -t emapta-exam:latest`
-  2. To run the docker container in your terminal: `docker run --name exam -d -p 3000:3000 emapta-exam:latest`
+  1. Build our image using this command: `docker build -t add-image:latest`
+  2. To run the docker container in your terminal: `docker run --name image -d -p 3000:3000 add-image:latest`
   3. To confirm it's working open up `localhost:3000` again without running npm start.
 
 ### npm run build ###
